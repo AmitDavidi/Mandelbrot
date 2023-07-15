@@ -28,7 +28,8 @@ a summary:
 5. Configure the PATH variable to include the path of gcc, in my computer its `C:\msys64\mingw64\bin` (Add that to your path variable)
 
 # Compilation
-* Compile the program - Note I added `-O3`, you don't have to :) : `gcc -o Mandlebrot.exe main.cpp -luser32 -lgdi32 -lopengl32 -lgdiplus -lShlwapi -ldwmapi -lstdc++ -static -std=c++17 -mavx2 -mfma -O3`
+* Compile the program - Note I added `-O3`, you don't have to :) :
+   `gcc -o Mandlebrot.exe main.cpp -luser32 -lgdi32 -lopengl32 -lgdiplus -lShlwapi -ldwmapi -lstdc++ -static -std=c++17 -mavx2 -mfma -O3`
 * run it ` .\Mandlebrot.exe `
 
 ### Enjoy your journy into the infinite :)
