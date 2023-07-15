@@ -310,16 +310,20 @@ public:
 				_mask2 = _mm256_cmp_pd(_iters, _n, _CMP_GT_OQ);
 				_n = _mm256_and_pd(_n, _mask2);
 	
-
 				_n = _mm256_sqrt_pd(_n);
 				
 
 				
+				// Store the values from _n to a temporary array
+				double temp[4];
+				_mm256_storeu_pd(temp, _n);
+
+				// Access the individual values from the temporary array
 				yea = y * SCREEN_SIZE + x;
-				pRes[yea] =    double(_n.m256d_f64[3]);
-				pRes[yea+1] =  double(_n.m256d_f64[2]);
-				pRes[yea+2] =  double(_n.m256d_f64[1]);
-				pRes[yea+3] =  double(_n.m256d_f64[0]);
+				pRes[yea] = temp[3];
+				pRes[yea + 1] = temp[2];
+				pRes[yea + 2] = temp[1];
+				pRes[yea + 3] = temp[0];
 				
 
 			
