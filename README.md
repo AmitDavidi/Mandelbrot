@@ -6,8 +6,11 @@ Q - Increase Iterations
 W - Decrease Iterations
 
 Left click - Zoom in
+
 Right click - go back
+
 Middle Click [HOLD and drag] - move
 
 a - Zoom continously 
-s - zoom out continouslyss
+
+s - zoom out continously
