@@ -25,7 +25,7 @@ a summary:
 2. `pacman -Su`
 3. For a 64bit system: `pacman -S mingw-w64-x86_64-gcc`, for a 32bit system: `pacman -S mingw-w64-i686-gcc`
 4. For a 64 bit system: `pacman -S mingw-w64-x86_64-make` for a 32bit system: `pacman -S mingw-w64-i686-make`
-5. Configure the PATH variable to include the path of gcc, in my computer its `C:\msys64\mingw64\bin` (Add that to your path variable)
+5. Configure the PATH variable to include the path of gcc, in my computer its `C:\msys64\mingw64\bin` (Add that to your path variable) - you can use (From cmd):  `SETX PATH "%PATH%;C:\msys64\mingw64\bin"`
 
 # Compilation
 * Compile the program - Note I added `-O3`, you don't have to :) :
