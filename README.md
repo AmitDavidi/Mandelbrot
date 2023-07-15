@@ -17,7 +17,7 @@ s - zoom out continously
 
 ## How to run
 
-# If you don't have MSYS2 and MinGW (And you can't run cpp programs) Follow the instructions of this video : `https://www.youtube.com/watch?v=jnI1gMxtrB4`
+### If you don't have MSYS2 and MinGW (And you can't run cpp programs) Follow the instructions of this video : `https://www.youtube.com/watch?v=jnI1gMxtrB4`
 a summary:
 * Install MSYS2
 - Open MSYS2 Terminal and run the following commands (Note - press y, and enter when asked to):
@@ -29,6 +29,7 @@ a summary:
 
 # Compilation
 * Compile the program - Note I added `-O3`, you don't have to :) :
+  
    `gcc -o Mandlebrot.exe main.cpp -luser32 -lgdi32 -lopengl32 -lgdiplus -lShlwapi -ldwmapi -lstdc++ -static -std=c++17 -mavx2 -mfma -O3`
 * run it ` .\Mandlebrot.exe `
 
