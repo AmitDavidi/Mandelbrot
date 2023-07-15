@@ -19,7 +19,7 @@ s - zoom out continously
 
 ### If you don't have MSYS2 and MinGW (And you can't run cpp programs) Follow the instructions of this video : `https://www.youtube.com/watch?v=jnI1gMxtrB4`
 a summary:
-* Install MSYS2
+* Install MSYS2 (Download the installer here `https://www.msys2.org/`)
 - Open MSYS2 Terminal and run the following commands (Note - press y, and enter when asked to):
 1. `pacman -Syu`
 2. `pacman -Su`
