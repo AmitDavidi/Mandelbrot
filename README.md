@@ -1,4 +1,4 @@
-# Mandelbrot-threading-AVX256
+# The Mandelbrot set - A Glimpse into Infinity
 Exploring the Mandelbrot set, Brute force processing with Threading and AVX256.
 
 ## Quick tutorial
